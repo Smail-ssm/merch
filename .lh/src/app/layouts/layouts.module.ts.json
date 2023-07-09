@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/layouts/layouts.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1688553603434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688553629572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import { NgModule } from '@angular/core';\n import { CommonModule } from '@angular/common';\n import { AdminLayoutComponent } from './admin-layout/admin-layout.component';\n import { UserLayoutComponent } from './user-layout/user-layout.component';\n+import { RouterModule } from '@angular/router';\n \n @NgModule({\n   declarations: [AdminLayoutComponent, UserLayoutComponent],\n-  imports: [CommonModule],\n+  imports: [CommonModule,RouterModule],\n })\n export class LayoutsModule {}\n"
+                }
+            ],
+            "date": 1688553603434,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { AdminLayoutComponent } from './admin-layout/admin-layout.component';\nimport { UserLayoutComponent } from './user-layout/user-layout.component';\n\n\n\n@NgModule({\n  declarations: [\n    AdminLayoutComponent,\n    UserLayoutComponent\n  ],\n  imports: [\n    CommonModule,\n    \n  ]\n})\nexport class LayoutsModule { }\n"
+        }
+    ]
+}

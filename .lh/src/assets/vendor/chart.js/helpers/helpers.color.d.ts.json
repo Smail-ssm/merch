@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/assets/vendor/chart.js/helpers/helpers.color.d.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1688560778947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688560794677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,12 @@\n-export declare function isPatternOrGradient(\n-  value: unknown\n-): value is CanvasPattern | CanvasGradient;\n+export declare function isPatternOrGradient(value: unknown): value is CanvasPattern | CanvasGradient;\n export declare function color(value: CanvasGradient): CanvasGradient;\n export declare function color(value: CanvasPattern): CanvasPattern;\n-export declare function color(\n-  value:\n-    | string\n-    | {\n-        r: number;\n-        g: number;\n-        b: number;\n-        a: number;\n-      }\n-    | [number, number, number]\n-    | [number, number, number, number]\n-): Color;\n+export declare function color(value: string | {\n+    r: number;\n+    g: number;\n+    b: number;\n+    a: number;\n+} | [number, number, number] | [number, number, number, number]): Color;\n export declare function getHoverColor(value: CanvasGradient): CanvasGradient;\n export declare function getHoverColor(value: CanvasPattern): CanvasPattern;\n export declare function getHoverColor(value: string): string;\n"
+                },
+                {
+                    "date": 1688560912258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,13 @@\n-export declare function isPatternOrGradient(\n-  value: unknown\n-): value is CanvasPattern | CanvasGradient;\n+import { Color } from '@kurkle/color';\n+export declare function isPatternOrGradient(value: unknown): value is CanvasPattern | CanvasGradient;\n export declare function color(value: CanvasGradient): CanvasGradient;\n export declare function color(value: CanvasPattern): CanvasPattern;\n-export declare function color(\n-  value:\n-    | string\n-    | {\n-        r: number;\n-        g: number;\n-        b: number;\n-        a: number;\n-      }\n-    | [number, number, number]\n-    | [number, number, number, number]\n-): Color;\n+export declare function color(value: string | {\n+    r: number;\n+    g: number;\n+    b: number;\n+    a: number;\n+} | [number, number, number] | [number, number, number, number]): Color;\n export declare function getHoverColor(value: CanvasGradient): CanvasGradient;\n export declare function getHoverColor(value: CanvasPattern): CanvasPattern;\n export declare function getHoverColor(value: string): string;\n"
+                }
+            ],
+            "date": 1688560778947,
+            "name": "Commit-0",
+            "content": "export declare function isPatternOrGradient(value: unknown): value is CanvasPattern | CanvasGradient;\nexport declare function color(value: CanvasGradient): CanvasGradient;\nexport declare function color(value: CanvasPattern): CanvasPattern;\nexport declare function color(value: string | {\n    r: number;\n    g: number;\n    b: number;\n    a: number;\n} | [number, number, number] | [number, number, number, number]): Color;\nexport declare function getHoverColor(value: CanvasGradient): CanvasGradient;\nexport declare function getHoverColor(value: CanvasPattern): CanvasPattern;\nexport declare function getHoverColor(value: string): string;\n"
+        }
+    ]
+}

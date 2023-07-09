@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/views/admin/dashbord/dashbord-routing.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1688553001035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1688553001035,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DashbordComponent } from './dashbord/dashbord.component';\n\nconst routes: Routes = [\n  {path:'',component:DashbordComponent}\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class DashbordRoutingModule { }\n"
+        }
+    ]
+}

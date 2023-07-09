@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/app/app.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1688552382946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688727052457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n \n import { AppRoutingModule } from './app-routing.module';\n import { AppComponent } from './app.component';\n import { LayoutsModule } from './layouts/layouts.module';\n+import { MatDatepickerModule } from '@angular/material/datepicker';\n+import { MatFormFieldModule } from '@angular/material/form-field';\n \n @NgModule({\n   declarations: [\n     AppComponent\n"
+                },
+                {
+                    "date": 1688727121890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n import { AppRoutingModule } from './app-routing.module';\n import { AppComponent } from './app.component';\n import { LayoutsModule } from './layouts/layouts.module';\n \n+\n @NgModule({\n   declarations: [AppComponent],\n   imports: [BrowserModule, AppRoutingModule, LayoutsModule],\n   providers: [],\n"
+                },
+                {
+                    "date": 1688727272460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n \n import { AppRoutingModule } from './app-routing.module';\n import { AppComponent } from './app.component';\n import { LayoutsModule } from './layouts/layouts.module';\n+import { MatFormFieldModule } from '@angular/material/form-field';\n \n+\n @NgModule({\n   declarations: [AppComponent],\n   imports: [BrowserModule, AppRoutingModule, LayoutsModule],\n   providers: [],\n"
+                }
+            ],
+            "date": 1688552382946,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { LayoutsModule } from './layouts/layouts.module';\n\n@NgModule({\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    LayoutsModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
+        }
+    ]
+}

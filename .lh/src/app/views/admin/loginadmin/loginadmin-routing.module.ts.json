@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/views/admin/loginadmin/loginadmin-routing.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1688553339754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1688553339754,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { LoginadminComponent } from './loginadmin/loginadmin.component';\n\nconst routes: Routes = [\n  {path:'',component:LoginadminComponent}\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class LoginadminRoutingModule { }\n"
+        }
+    ]
+}

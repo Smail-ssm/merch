@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/views/admin/contrat/contrat-routing.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1688647487957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688648924999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { NgModule } from '@angular/core';\n import { RouterModule, Routes } from '@angular/router';\n import { ContratComponent } from './contrat/contrat.component';\n \n-const routes: Routes = [{ path: '', component: ContratComponent }];\n+const routes: Routes = [{ path: '', component: ContratComponent,children[] }];\n \n @NgModule({\n   imports: [RouterModule.forChild(routes)],\n   exports: [RouterModule],\n"
+                },
+                {
+                    "date": 1688649040506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,16 @@\n import { NgModule } from '@angular/core';\n import { RouterModule, Routes } from '@angular/router';\n import { ContratComponent } from './contrat/contrat.component';\n+import { AjouterContratComponent } from './ajouter-contrat/ajouter-contrat.component';\n+import { ListerContratComponent } from './lister-contrat/lister-contrat.component';\n+import { ModifierContratComponent } from './modifier-contrat/modifier-contrat.component';\n \n-const routes: Routes = [{ path: '', component: ContratComponent,children[] }];\n+const routes: Routes = [{ path: '', component: ContratComponent,children:[\n+  {path:'ajouter contrat',component:AjouterContratComponent},\n+  { path:'liste contrats',component:ListerContratComponent},\n+  { path:'modifier contart',component:ModifierContratComponent}\n+] }];\n \n @NgModule({\n   imports: [RouterModule.forChild(routes)],\n   exports: [RouterModule],\n"
+                }
+            ],
+            "date": 1688647487957,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { ContratComponent } from './contrat/contrat.component';\n\nconst routes: Routes = [\n  {path:'',component:ContratComponent}\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class ContratRoutingModule { }\n"
+        }
+    ]
+}

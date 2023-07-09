@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/views/user/loginuser/loginuser-routing.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1688554764532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688555034796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { NgModule } from '@angular/core';\n import { RouterModule, Routes } from '@angular/router';\n import { LoginuserComponent } from './loginuser/loginuser.component';\n \n-const routes: Routes = [{ path: 'loginuser', component: LoginuserComponent }];\n+const routes: Routes = [{ path: '', component: LoginuserComponent }];\n \n @NgModule({\n   imports: [RouterModule.forChild(routes)],\n   exports: [RouterModule],\n"
+                }
+            ],
+            "date": 1688554764532,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { LoginuserComponent } from './loginuser/loginuser.component';\n\nconst routes: Routes = [\n  {path:'loginuser',component:LoginuserComponent}\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class LoginuserRoutingModule { }\n"
+        }
+    ]
+}
